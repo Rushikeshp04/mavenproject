@@ -3,6 +3,7 @@ package AmazonTestcases;
 import java.time.Duration;
 import java.util.Iterator;
 import java.util.Set;
+<<<<<<< HEAD
 import java.util.jar.Attributes.Name;
 
 import org.openqa.selenium.By;
@@ -11,6 +12,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+=======
+
+>>>>>>> 3632f3323dd713e125400360630897283cb0c3a7
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -22,6 +26,7 @@ public class Testcase2 extends launch_quit
    @Test
   public void testcase2()
   {
+<<<<<<< HEAD
 	   Amazon_addtocart F1 = new Amazon_addtocart(driver);
                   F1.searchshoe();
                   F1.selectshoe();
@@ -61,6 +66,34 @@ public class Testcase2 extends launch_quit
   
   }
    
+=======
+//	   Amazon_login OK = new Amazon_login(driver);
+//	   OK.signin(driver);
+// 	  OK.clickonsign();
+// 	  OK.mail();
+// 	  OK.continue_button();
+// 	  OK.pwd();
+// 	  OK.button();
+//      
+    Amazon_addtocart AB = new Amazon_addtocart(driver); 
+       AB.searchshoe();
+       AB.selectshoe();
+       driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+       
+       Set <String>     KK = driver.getWindowHandles();
+        Iterator <String>        ids=  KK.iterator();
+                        String parentid  = ids.next();
+                          String childId = ids.next();
+//driver.close();
+driver.switchTo().window(childId);
+AB.addtocart();
+
+
+      
+                                   
+                                   
+  }
+>>>>>>> 3632f3323dd713e125400360630897283cb0c3a7
 
 
 

@@ -3,6 +3,7 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="AmazonTestcases.Testcase2">
         <methods>
           <include name="close"/>
@@ -14,6 +15,19 @@
         <methods>
           <include name="close"/>
           <include name="launch"/>
+=======
+      <class name="AmazonTestcases.Testcase1">
+        <methods>
+          <include name="launch"/>
+          <include name="quit"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- AmazonTestcases.Testcase1 -->
+      <class name="AmazonTestcases.Testcase3_updateprofile">
+        <methods>
+          <include name="launch"/>
+          <include name="quit"/>
+>>>>>>> 3632f3323dd713e125400360630897283cb0c3a7
           <include name="updateprofile"/>
         </methods>
       </class> <!-- AmazonTestcases.Testcase3_updateprofile -->

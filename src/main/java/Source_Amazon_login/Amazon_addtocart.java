@@ -10,6 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Amazon_addtocart {
+<<<<<<< HEAD
             WebDriver driver;
              @FindBy(id="twotabsearchtextbox")
              WebElement search;
@@ -152,4 +153,42 @@ public class Amazon_addtocart {
 	         {
 	        	 PageFactory.initElements(driver, this);
 	         }
+=======
+	WebDriver driver;
+	@FindBy(id="twotabsearchtextbox")
+	WebElement search;
+	
+	@FindBy(xpath="(//div[@class='a-section a-spacing-base a-text-center'])[2]")
+	WebElement selectshoe;
+
+    @FindBy(xpath="//input[@id='add-to-cart-button']")
+    WebElement addtocart;
+
+
+
+     public void searchshoe()
+     {
+    	 search.sendKeys("shoes"+Keys.ENTER);
+    	 
+    	 
+     }
+
+     public void selectshoe() 
+     {
+    	 selectshoe.click();
+     }
+     
+    public void addtocart()
+    {
+    	addtocart.click();
+        }
+
+
+public Amazon_addtocart(WebDriver driver)
+{
+   PageFactory.initElements(driver, this);	
+
+}
+
+>>>>>>> 3632f3323dd713e125400360630897283cb0c3a7
 }

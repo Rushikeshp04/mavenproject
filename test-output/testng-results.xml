@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -16,10 +17,30 @@
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Save Card"}
   (Session info: MicrosoftEdge=135.0.3179.85)
+=======
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-26T15:06:06 IST" name="Suite" finished-at="2025-01-26T15:07:37 IST" duration-ms="91037">
+    <groups>
+    </groups>
+    <test started-at="2025-01-26T15:06:06 IST" name="Test" finished-at="2025-01-26T15:07:37 IST" duration-ms="91037">
+      <class name="AmazonTestcases.Testcase1">
+        <test-method is-config="true" signature="launch()[pri:0, instance:AmazonTestcases.Testcase1@1ed4ae0f]" started-at="2025-01-26T15:06:36 IST" name="launch" finished-at="2025-01-26T15:06:49 IST" duration-ms="13005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="test1()[pri:0, instance:AmazonTestcases.Testcase1@1ed4ae0f]" started-at="2025-01-26T15:06:49 IST" name="test1" finished-at="2025-01-26T15:06:58 IST" duration-ms="9268" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#ap_email_login"}
+  (Session info: MicrosoftEdge=132.0.2957.115)
+>>>>>>> 3632f3323dd713e125400360630897283cb0c3a7
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.edge.EdgeDriver
+<<<<<<< HEAD
 Command: [a95d273d33345e90037b3f54d34eb054, findElement {value=Save Card, using=link text}]
 Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 135.0.3179.85, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63841}, msedge: {msedgedriverVersion: 135.0.3179.85 (578105711aca..., userDataDir: C:\Users\rushi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63841/devtoo..., se:cdpVersion: 135.0.3179.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: a95d273d33345e90037b3f54d34eb054]]>
@@ -27,13 +48,28 @@ Session ID: a95d273d33345e90037b3f54d34eb054]]>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Save Card"}
   (Session info: MicrosoftEdge=135.0.3179.85)
+=======
+Command: [f07ce4a83a545035f81752634e5404e3, findElement {using=id, value=ap_email_login}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.115, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57553}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\rushi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57553/devtoo..., se:cdpVersion: 132.0.2957.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f07ce4a83a545035f81752634e5404e3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ap_email_login"}
+  (Session info: MicrosoftEdge=132.0.2957.115)
+>>>>>>> 3632f3323dd713e125400360630897283cb0c3a7
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.edge.EdgeDriver
+<<<<<<< HEAD
 Command: [a95d273d33345e90037b3f54d34eb054, findElement {value=Save Card, using=link text}]
 Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 135.0.3179.85, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63841}, msedge: {msedgedriverVersion: 135.0.3179.85 (578105711aca..., userDataDir: C:\Users\rushi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63841/devtoo..., se:cdpVersion: 135.0.3179.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: a95d273d33345e90037b3f54d34eb054
+=======
+Command: [f07ce4a83a545035f81752634e5404e3, findElement {using=id, value=ap_email_login}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.115, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57553}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\rushi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57553/devtoo..., se:cdpVersion: 132.0.2957.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f07ce4a83a545035f81752634e5404e3
+>>>>>>> 3632f3323dd713e125400360630897283cb0c3a7
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -50,9 +86,15 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<<<<<<< HEAD
 at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
 at Source_Amazon_login.Amazon_addtocart.clickonsavecard(Amazon_addtocart.java:113)
 at AmazonTestcases.Testcase2.testcase2(Testcase2.java:44)
+=======
+at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+at Source_Amazon_login.Amazon_login.mail(Amazon_login.java:47)
+at AmazonTestcases.Testcase1.test1(Testcase1.java:15)
+>>>>>>> 3632f3323dd713e125400360630897283cb0c3a7
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -84,6 +126,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- testcase2 -->
         <test-method is-config="true" signature="close()[pri:0, instance:AmazonTestcases.Testcase2@3c77d488]" started-at="2025-04-23T20:32:52 IST" name="close" finished-at="2025-04-23T20:32:54 IST" duration-ms="2120" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
@@ -170,10 +213,43 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='sc-fqkvVR sc-fTFjTM jZunJN eqmAHp']"}
   (Session info: MicrosoftEdge=135.0.3179.85)
+=======
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:AmazonTestcases.Testcase1@1ed4ae0f]" started-at="2025-01-26T15:06:58 IST" name="quit" finished-at="2025-01-26T15:06:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- AmazonTestcases.Testcase1 -->
+      <class name="AmazonTestcases.Testcase2">
+        <test-method is-config="true" signature="launch()[pri:0, instance:AmazonTestcases.Testcase2@6d4d66d2]" started-at="2025-01-26T15:06:58 IST" name="launch" finished-at="2025-01-26T15:07:12 IST" duration-ms="14143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testcase2()[pri:0, instance:AmazonTestcases.Testcase2@6d4d66d2]" started-at="2025-01-26T15:07:12 IST" name="testcase2" finished-at="2025-01-26T15:07:37 IST" duration-ms="24657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:AmazonTestcases.Testcase2@6d4d66d2]" started-at="2025-01-26T15:07:37 IST" name="quit" finished-at="2025-01-26T15:07:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- AmazonTestcases.Testcase2 -->
+      <class name="AmazonTestcases.Testcase3_updateprofile">
+        <test-method is-config="true" signature="launch()[pri:0, instance:AmazonTestcases.Testcase3_updateprofile@534a5a98]" started-at="2025-01-26T15:06:06 IST" name="launch" finished-at="2025-01-26T15:06:30 IST" duration-ms="23810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="updateprofile()[pri:0, instance:AmazonTestcases.Testcase3_updateprofile@534a5a98]" started-at="2025-01-26T15:06:30 IST" name="updateprofile" finished-at="2025-01-26T15:06:36 IST" duration-ms="5588" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='sc-fqkvVR sc-fTFjTM jZunJN eqmAHp']"}
+  (Session info: MicrosoftEdge=132.0.2957.115)
+>>>>>>> 3632f3323dd713e125400360630897283cb0c3a7
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.edge.EdgeDriver
+<<<<<<< HEAD
 Command: [75457189e8655761fad35bd0ff250919, findElement {value=//button[@class='sc-fqkvVR sc-fTFjTM jZunJN eqmAHp'], using=xpath}]
 Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 135.0.3179.85, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64018}, msedge: {msedgedriverVersion: 135.0.3179.85 (578105711aca..., userDataDir: C:\Users\rushi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64018/devtoo..., se:cdpVersion: 135.0.3179.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 75457189e8655761fad35bd0ff250919]]>
@@ -181,13 +257,28 @@ Session ID: 75457189e8655761fad35bd0ff250919]]>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='sc-fqkvVR sc-fTFjTM jZunJN eqmAHp']"}
   (Session info: MicrosoftEdge=135.0.3179.85)
+=======
+Command: [76e594cf91358ecc5e6fd4abcad828b4, findElement {using=xpath, value=//button[@class='sc-fqkvVR sc-fTFjTM jZunJN eqmAHp']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.115, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57402}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\rushi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57402/devtoo..., se:cdpVersion: 132.0.2957.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 76e594cf91358ecc5e6fd4abcad828b4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='sc-fqkvVR sc-fTFjTM jZunJN eqmAHp']"}
+  (Session info: MicrosoftEdge=132.0.2957.115)
+>>>>>>> 3632f3323dd713e125400360630897283cb0c3a7
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.edge.EdgeDriver
+<<<<<<< HEAD
 Command: [75457189e8655761fad35bd0ff250919, findElement {value=//button[@class='sc-fqkvVR sc-fTFjTM jZunJN eqmAHp'], using=xpath}]
 Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 135.0.3179.85, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64018}, msedge: {msedgedriverVersion: 135.0.3179.85 (578105711aca..., userDataDir: C:\Users\rushi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64018/devtoo..., se:cdpVersion: 135.0.3179.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 75457189e8655761fad35bd0ff250919
+=======
+Command: [76e594cf91358ecc5e6fd4abcad828b4, findElement {using=xpath, value=//button[@class='sc-fqkvVR sc-fTFjTM jZunJN eqmAHp']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.115, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57402}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\rushi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57402/devtoo..., se:cdpVersion: 132.0.2957.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 76e594cf91358ecc5e6fd4abcad828b4
+>>>>>>> 3632f3323dd713e125400360630897283cb0c3a7
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -239,10 +330,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateprofile -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="close()[pri:0, instance:AmazonTestcases.Testcase3_updateprofile@63376bed]" started-at="2025-04-23T20:33:08 IST" name="close" finished-at="2025-04-23T20:33:10 IST" duration-ms="2668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
+=======
+        <test-method is-config="true" signature="quit()[pri:0, instance:AmazonTestcases.Testcase3_updateprofile@534a5a98]" started-at="2025-01-26T15:06:36 IST" name="quit" finished-at="2025-01-26T15:06:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+>>>>>>> 3632f3323dd713e125400360630897283cb0c3a7
       </class> <!-- AmazonTestcases.Testcase3_updateprofile -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

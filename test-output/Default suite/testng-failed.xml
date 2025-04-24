@@ -5,8 +5,13 @@
     <classes>
       <class name="AmazonTestcases.Testcase2">
         <methods>
+<<<<<<< HEAD
           <include name="close"/>
           <include name="launch"/>
+=======
+          <include name="launch"/>
+          <include name="quit"/>
+>>>>>>> 3632f3323dd713e125400360630897283cb0c3a7
           <include name="testcase2"/>
         </methods>
       </class> <!-- AmazonTestcases.Testcase2 -->

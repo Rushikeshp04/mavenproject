@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Selenium.SeleniumProject.AppTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 s - in Selenium.SeleniumProject.AppTest
+=======
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.139 s -- in Selenium.SeleniumProject.AppTest
+>>>>>>> 3632f3323dd713e125400360630897283cb0c3a7

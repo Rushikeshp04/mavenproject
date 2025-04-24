@@ -6,7 +6,11 @@
       <class name="AmazonTestcases.Testcase3_updateprofile"/>
       <class name="AmazonTestcases.Testcase1"/>
       <class name="AmazonTestcases.Testcase2"/>
+<<<<<<< HEAD
       
+=======
+      <class name="Amazon_listeners.Amazonlisteners"/>
+>>>>>>> 3632f3323dd713e125400360630897283cb0c3a7
       <class name="Source_Amazon_login.Amazon_addtocart"/>
       <class name="Source_Amazon_login.Amazon_login"/>
       <class name="Source_Amazon_login.Amazon_profileupdate"/>
